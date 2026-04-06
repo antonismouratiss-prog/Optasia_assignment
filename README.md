@@ -1,5 +1,22 @@
-Instructions for library requirements, Python version and how to run the code can be found in the Dockerfile and the requirements files.
-To run the script, first run optasia_final4.py and then the load_data.py while optasia_final6.py is running, in order to load the json files.
-The results for the SQL database can be found in the optasia.db file, the summary from the postman can be found in the image postman.png, and the validation errors for skipped customers can be found in the validation_errors.txt.
-It is observed that the customer files 6 to 10 have several problems that do not abide by the validation rules. An extensive summary can be found in the validation_errors.txt.
-Last but not least, it is observed that the latency per request varies for each individual run of the script, sometimes over 20 ms, which is the threshold. However, we consider the average over 10,000 run per file, which is around 13 ms.
+# Optasia Feature Engineering API
+
+## Setup
+- Library requirements, Python version, and run instructions can be found in the **Dockerfile** and **requirements.txt**
+
+## How to Run
+- First run `optasia_final4.py`
+- Then run `load_data.py` while `optasia_final6.py` is running, in order to load the JSON files
+
+## Output Files
+- **`optasia.db`** — SQLite database containing all results
+- **`postman.png`** — Summary screenshot from Postman
+- **`validation_errors.txt`** — Log of all validation errors for skipped customers
+
+## Validation
+- Customer files 1 to 5 passed all validation rules successfully
+- Customer files 6 to 10 contain several issues that do not abide by the validation rules
+- An extensive summary of all errors can be found in `validation_errors.txt`
+
+## Latency
+- Latency per request varies across individual runs, sometimes exceeding the 20 ms threshold
+- The average latency over 10,000 runs per file is approximately 13 ms, which is within the threshold
