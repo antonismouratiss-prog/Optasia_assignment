@@ -1,0 +1,186 @@
+WARNING,2026-04-06 16:00:07 (18844) [OptasiaErrors] Customer pyfxobu7g1TPvYß skipped due to 29 errors:
+  - Format Error [customer_ID]: String should match pattern '^[ -~]+$'
+  - Format Error [loans -> 0 -> amount]: Input should be less than or equal to 1000
+  - Format Error [loans -> 0 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 0 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 5 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 7 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 7 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 7 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 11 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 15 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 21 -> amount]: Input should be greater than or equal to 100
+  - Format Error [loans -> 21 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 21 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 25 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 26 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 31 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 31 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 31 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 39 -> amount]: Input should be less than or equal to 1000
+  - Format Error [loans -> 39 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 40 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 40 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 40 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 42 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 42 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 44 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 44 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 44 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 45 -> fee]: Input should be greater than or equal to 10 [feature_engineering: 157]
+WARNING,2026-04-06 16:00:09 (2956) [OptasiaErrors] Customer g7vsDPIHF48i2GDrmZé skipped due to 34 errors:
+  - Format Error [customer_ID]: String should match pattern '^[ -~]+$'
+  - Format Error [loans -> 0 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 2 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 2 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 2 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 8 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 8 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 9 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 10 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 11 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 11 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 12 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 12 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 12 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 14 -> amount]: Input should be less than or equal to 1000
+  - Format Error [loans -> 14 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 15 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 15 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 16 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 16 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 17 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 19 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 19 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 21 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 21 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 25 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 25 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 25 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 30 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 31 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 32 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 34 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 34 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 34 -> annual_income]: Input should be less than or equal to 10000000 [feature_engineering: 157]
+WARNING,2026-04-06 16:00:11 (11768) [OptasiaErrors] Customer JGAgbfwJfMMYu3yasAyXfU5J5pKHk skipped due to 34 errors:
+  - Format Error [customer_ID]: String should have at most 20 characters
+  - Format Error [loans -> 1 -> amount]: Input should be less than or equal to 1000
+  - Format Error [loans -> 1 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 1 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 1 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 4 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 4 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 4 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 4 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 5 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 6 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 6 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 6 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 7 -> amount]: Input should be greater than or equal to 100
+  - Format Error [loans -> 7 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 7 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 9 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 9 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 9 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 11 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 11 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 11 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 12 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 12 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 19 -> amount]: Input should be less than or equal to 1000
+  - Format Error [loans -> 19 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 22 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 23 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 27 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 27 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 27 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 35 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 36 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 36 -> annual_income]: Input should be greater than or equal to 100 [feature_engineering: 157]
+WARNING,2026-04-06 16:00:13 (6416) [OptasiaErrors] Customer yhpFOMeH skipped due to 53 errors:
+  - Format Error [customer_ID]: String should have at least 10 characters
+  - Format Error [loans -> 2 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 2 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 3 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 3 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 3 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 8 -> amount]: Input should be greater than or equal to 100
+  - Format Error [loans -> 8 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 8 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 9 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 9 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 11 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 11 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 13 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 18 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 18 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 19 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 22 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 22 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 22 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 25 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 25 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 25 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 26 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 30 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 33 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 33 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 34 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 34 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 34 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 34 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 41 -> fee]: Input should be greater than or equal to 10
+  - Format Error [loans -> 41 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 42 -> loan_status]: Input should be less than or equal to 1
+  - Format Error [loans -> 42 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 42 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 43 -> amount]: Input should be less than or equal to 1000
+  - Format Error [loans -> 43 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 43 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 43 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 47 -> amount]: Input should be greater than or equal to 100
+  - Format Error [loans -> 47 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 49 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 49 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 50 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 50 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 52 -> amount]: Input should be less than or equal to 1000
+  - Format Error [loans -> 52 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 53 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 53 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 54 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 54 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 54 -> term]: Input should be 'short' or 'long' [feature_engineering: 157]
+WARNING,2026-04-06 16:00:15 (2956) [OptasiaErrors] Customer 3x0dGYketTGziX2H4K skipped due to 31 errors:
+  - Format Error [loans -> 0 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 2 -> amount]: Input should be greater than or equal to 100
+  - Format Error [loans -> 2 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 2 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 2 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 4 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 10 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 13 -> loan_status]: Input should be greater than or equal to 0
+  - Format Error [loans -> 13 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 19 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 19 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 20 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 20 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 27 -> amount]: Input should be greater than or equal to 100
+  - Format Error [loans -> 31 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 31 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 37 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 38 -> fee]: Input should be less than or equal to 50
+  - Format Error [loans -> 38 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 38 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 40 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 42 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 42 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 42 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 43 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 46 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 47 -> annual_income]: Input should be less than or equal to 10000000
+  - Format Error [loans -> 51 -> loan_status]: Input should be a valid integer, unable to parse string as an integer
+  - Format Error [loans -> 51 -> term]: Input should be 'short' or 'long'
+  - Format Error [loans -> 51 -> annual_income]: Input should be greater than or equal to 100
+  - Format Error [loans -> 57 -> annual_income]: Input should be less than or equal to 10000000 [feature_engineering: 157]
